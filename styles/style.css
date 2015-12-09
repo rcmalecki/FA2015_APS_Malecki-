@@ -4,7 +4,7 @@
 
 body {
 	/*font-family:"fira-sans-2", serif;*/
-	font-family: "Tahoma", "Geneva", sans-serif;
+	font-family: ‘Arial Narrow’, sans-serif;
 	background-color:#fff;
 	padding:0;
 	margin:0;
@@ -17,21 +17,20 @@ h1 h2 p {
 header {
 	position:fixed;
 	padding: 10px;
-	color:#fcf3c6;
+	color:#fff;
 	width:100%;
-	background-color:#000;
+	background-image: url("../images/stardust_dkbl.png");
+	background-repeat: repeat-x;
 	height:160px;
 	z-index:1;
 }
 
 header h1 h2 {
 	/*font-family:"sanvito-pro-display", serif;*/
-	font-family: "Georgia", serif;
-	font-style: italic;
 }
 
 header h1 {
-	font-size:3em;
+	font-size:2.8em;
 	line-height:0;
 	margin-left:170px;
 	margin-top:-100px;
@@ -44,7 +43,7 @@ header h2 {
 }
 
 nav ul {
-	margin-left:1400px;
+	margin-left:75%;
 	margin-top:-180px;
 }
 
@@ -53,6 +52,7 @@ nav li{
 	font-size:1.5em;
 	list-style:none;
 	display:inline-block;
+	float:left;
 	margin-left:50px;
 	padding:0;
 }
@@ -62,6 +62,20 @@ nav li{
 	margin-left: 45%;
 	margin-right: 55%;
 }
+
+form {
+	position: right;
+}
+
+/*
+#store:hover {
+	background-image:url("../images/etsy_button_white.png");
+}
+
+#logo:hover {
+	background-image:url("../images/logo_ylw.png");
+}
+*/
 
 #portfolio {
 	padding-top:160px;
@@ -239,6 +253,7 @@ footer {
 	margin-left:auto;
     margin-right:auto;
 	z-index:3;
+	clear:both;
 }
 
 a {
