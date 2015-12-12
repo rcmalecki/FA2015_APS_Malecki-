@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 	function overlayToggle(articleHovered) {
 
-		console.log("This is the fuction overlayToggle() speaking.");
+		console.log("This is the function overlayToggle() speaking.");
 
 		articleHovered.children("div.overlay").stop().slideToggle();
 
